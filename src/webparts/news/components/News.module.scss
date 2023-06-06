@@ -1,0 +1,99 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.maincontainer {
+  background-color:  rgb(255, 255, 255);
+}
+
+.componentTitle {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-indent: 5px;
+}
+
+.allNewsContainer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+}
+.newscard {
+  background-color: #ffffff;
+  width: 23%;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newscard img {
+  width: 100%;
+  height: 120px;
+}
+.newscard p {
+  text-align: justify;
+ /*  white-space: nowrap;
+  overflow: hidden; */
+  margin: 0;
+}
+.line{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  
+}
+.paragraph {
+  line-height: 1.8;
+  color:rgb(0, 0, 0);
+  font-size: 12px;
+}
+.btncolor{
+ color:rgb(160, 4, 4);
+ border-color: rgb(160, 4, 4);
+ background-color: #ffffff;
+ align-items: left;
+ height: 25px;
+ width: 100px;
+ cursor: pointer;
+ font-size: 12px;
+ font-weight: 700;
+ 
+ &:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(160, 4, 4);
+  
+ }
+}
+
+input[type=text]{
+  height:20px; width:250px;
+  margin-left: 3px;
+}
+.btn1{
+  margin-left: 20px;
+  color:rgb(160, 4, 4);
+  border-color: rgb(160, 4, 4);
+  background-color: #ffffff;
+  width: 70px;
+  height: 25px;
+ cursor: pointer;
+ font-size: 12px;
+ font-weight: 700;
+  &:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(160, 4, 4);
+    height: 30px;
+  }}
+  /* .btn2{
+    color:rgb(160, 4, 4);
+    border-color: rgb(160, 4, 4);
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+ cursor: pointer;
+ font-size: 12px;
+ font-weight: 700;
+    &:hover{
+      color: rgb(255, 255, 255);
+      background-color: rgb(160, 4, 4);
+  }
+} */
